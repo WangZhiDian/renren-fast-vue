@@ -17,6 +17,10 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    // 如果我们希望在每个 js 代码每一个表达式的结尾都以分号结尾，则在 rules 字段增加配置： ‘semi’: [“error”, “always”] ，否则 eslint 会给出错误提示。
+    'semi': 0,
+    'space-before-function-paren': 0,
+    'indent':['off',2],
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
