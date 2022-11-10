@@ -21,6 +21,8 @@ module.exports = {
     'semi': 0,
     'space-before-function-paren': 0,
     'indent':['off',2],
+    'singleQuote': 0,
+    'trailingComma': 'off',
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
